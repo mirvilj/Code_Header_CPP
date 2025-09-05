@@ -22,7 +22,7 @@ int main() {
     }
     cout << endl;
 
-    // Building the header on the output
+    // Building the header on the outpu
     cout << setw(SCREEN_WIDTH) << setfill(SYMB) << "" << endl; // Top
     // In order to find the center, we add the extra space and then divide by 2 because we are right aligned
     cout << setw((SCREEN_WIDTH + NAME.length()) / 2) << setfill(' ') << NAME << endl;
